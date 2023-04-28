@@ -41,41 +41,77 @@
       <div class="one-half column" style="margin-top: 10%">
           <h4>BOLONG (HARVEY) CHENG</h4>
             <p>
-            <a id="link-linkedin" target="_blank" href="https://www.linkedin.com/in/harveycheng"><i 
-                    class="fa fa-linkedin fa-2x"></i></a>
-            <a id="link-github" target="_blank" href="https://github.com/bolongcheng"><i 
-                    class="fa fa-github fa-2x"></i></a>
-            <a id="link-gscholar" target="_blank" href="https://scholar.google.com/citations?user=TCvPVooAAAAJ&hl=en"><i 
-                    class="ai ai-google-scholar-square ai-2x"></i></a>
-            <a id="link-cv" target="_blank" href="https://www.dropbox.com/s/h72c8az9gazd08z/CV.pdf?dl=0"><i 
-                    class="ai ai-cv-square fa-2x"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/in/harveycheng"><i class="fa fa-linkedin fa-2x"></i></a>
+              <a target="_blank" href="https://github.com/bolongcheng"><i class="fa fa-github fa-2x"></i></a>
+              <a target="_blank" href="https://scholar.google.com/citations?user=TCvPVooAAAAJ&hl=en"><i 
+                      class="ai ai-google-scholar-square ai-2x"></i></a>
+              <a target="_blank" href="https://www.dropbox.com/s/h72c8az9gazd08z/CV.pdf?dl=0"><i 
+                      class="ai ai-cv-square fa-2x"></i></a>
             </p>
 
             <p align="justify">
-               Hello. I am the lead AI research engineer/scientist  at  <a id="link-sigopt" target="_blank" 
-                   href="http://www.sigopt.com">SigOpt</a> (acquired by Intel in 2020). Currently, I work on productionizing <a 
+               Hello. I am the lead AI research engineer/scientist  at  <a target="_blank" 
+                   href="https://sigopt.com">SigOpt</a> (acquired by Intel in 2020). Currently, I
+                 work on <a href="#sigopt-bo">productionizing</a> <a 
                    href="https://arxiv.org/abs/1807.02811">Bayesian optimization</a>, and more broadly, sequential 
                decision making problems. I am especially interested in applying sequential optimization techniques 
-               in scientific and engineering domains such as <a id="link-butterfly" 
+               in scientific and engineering domains such as <a 
                    href="https://pubs.rsc.org/en/content/articlelanding/2019/mh/c9mh00589g/unauth#!divAbstract">materials 
                    simulation</a> and
-                <a id="link-cas" 
-                    href="https://proceedings.mlr.press/v139/malkomes21a.html">design</a>.
+                <a href="https://proceedings.mlr.press/v139/malkomes21a.html">design</a>.
                 Prior to SigOpt, I obtained my Ph.D. in <a target="_blank"
                 href="http://ee.princeton.edu">electrical engineering</a> from <a target="_blank"
                 href="http://www.princeton.edu">Princeton University</a>, where I was advised by <a target="_blank"
                 href="http://castlelab.princeton.edu">Prof. Warren B. Powell</a>. My doctoral studies focused 
-                on <a id="link-adp" target="_blank" href="http://adp.princeton.edu">approximate dynamic
+                on <a target="_blank" href="http://adp.princeton.edu">approximate dynamic
                 programming</a>, stochastic optimization, 
-                and <a id="link-optlearning" target="_blank" 
+                and <a target="_blank" 
                     href="http://optimallearning.princeton.edu">optimal learning</a>, with an application in 
                 <a href="#grid-battery">managing grid-level battery storage</a>.
-                </p>
+            </p>
       </div>
       <div class="one-half column" style="margin-top: 10%">
           <center>
-          <img class="u-half-width" src="images/harvey.png">
+            <img class="u-half-width" src="images/harvey.png">
           </center>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <!--sigopt bo-->
+    <div class="docs-section">
+      <div class="one-half column" style="margin-top: 10%">
+        <ul>
+            <li>
+              <a target="_blank" href="https://docs.sigopt.com/advanced_experimentation/multimetric_optimization">Multimetric
+                Optimization</a> (SigOpt Documentation)
+            </li>
+            <li>
+              <a target="_blank" href="https://docs.sigopt.com/advanced_experimentation/metric_constraints">Metric Constraint</a> (Sigopt
+                Documentation)
+            </li>
+            <li>
+              <a target="_blank" href="https://docs.sigopt.com/ai-module-api-references/xgboost">XGBoost Integration</a> (Sigopt
+              Documentation)
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/sigopt/sigopt-server">sigopt-server</a>, an open-source version of SigOpt
+            </li> 
+            <li><a target="_blank" href="https://github.com/sigopt/libsigopt">libsigopt</a>, the compuational engine of SigOpt</li>
+        </ul>
+      </div>
+      <div id="sigopt-bo" class="one-half column" style="margin-bottom: 10%">
+        <h4>productionizing bayesian optimization</h4>
+        <p align="justify">
+          I spend most of my time at SigOpt developing Baysian optimization software. 
+          It takes a great deal of engineering effort and care to ensure that
+          the platorm is industry-grade, extensive, and robust under vastly different user demands.
+          I have lead the development of many features such as multiobjective optimization,
+          constrained optimization, model-aware optimization, as well as various backend computational improvements.
+          A bulk of my work is now available as open source software
+          <code><a target="_blank" href="https://github.com/sigopt/sigopt-server">sigopt-server</a></code> and
+          <code><a target="_blank" href="https://github.com/sigopt/libsigopt">libsigopt</a></code>.
+        </p>
       </div>
     </div>
   </div>
@@ -84,28 +120,36 @@
     <div class="docs-section">
       <div class="one-half column" style="margin-top: 10%">
         <ul>
-            <li><a id="link-butterfly" target="_blank" 
-                href="https://pubs.rsc.org/en/content/articlelanding/2019/mh/c9mh00589g/unauth#!divAbstract">Creating glasswing
-                butterfly-inspired durable antifogging superomniphobic supertransmissive, superclear
-            nanostructured glass through Bayesian learning and optimization</a>, Materials Horizon (2019)</li>
-            <li><a id="link-glass-sim" target="_blank"
-                    href="https://www.osapublishing.org/abstract.cfm?uri=optica-7-7-784">Discovering high-performance broadband 
-                    and broad angle antireflection surfaces by machine learning</a>, Optica (2020)</li>
-            <li><a id="link-cas-icml" target="_blank"
-                    href="https://proceedings.mlr.press/v139/malkomes21a/malkomes21a.pdf">Beyond the
-                    Pareto efficient frontier: constraint active search for multiobjective
-                    experimental design</a>, ICML (2021)</li>
+            <li>
+              <a target="_blank" href="https://pubs.rsc.org/en/content/articlelanding/2019/mh/c9mh00589g/unauth#!divAbstract">Creating 
+                glasswing butterfly-inspired durable antifogging superomniphobic supertransmissive, superclear
+                nanostructured glass through Bayesian learning and optimization</a>, Materials Horizon (2019)
+            </li>
+            <li>
+              <a target="_blank" href="https://www.osapublishing.org/abstract.cfm?uri=optica-7-7-784">Discovering high-performance 
+                broadband and broad angle antireflection surfaces by machine learning</a>, Optica (2020)
+            </li>
+            <li>
+              <a target="_blank" href="https://proceedings.mlr.press/v139/malkomes21a/malkomes21a.pdf">Beyond the
+                Pareto efficient frontier: constraint active search for multiobjective experimental design</a>, ICML (2021)
+            </li>
+            <li>
+              <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10015472">Achieving Diversity 
+                in Objective Space for Sample-Efficient Search of Multiobjective Optimization Problems</a>, Winter Simulation 
+                Conference (2022)
+            </li>
         </ul>
       </div>
-      <div class="one-half column" style="margin-bottom: 10%">
+      <div id="materials" class="one-half column" style="margin-bottom: 10%">
         <h4>sequential design for materials science</h4>
-        <p align="justify">These projects are collaboration work with <a href="http://lamp.pitt.edu">materials
-            scientists</a> from the University of Pittsburgh. At the high level, we frame materials
-        design and discovery in the context of sequential decision making problems.
-        In the first project, we develop a constrained Bayesian optimization method to accelerate 
-        the fabrication process of an optical device. In the second project, 
-        we use multiobjective Bayesian optimization to discover and study the Pareto optimal
-        anti-reflective nanostructures through numerical simulations.
+        <p align="justify">
+          These projects are collaboration work with <a href="http://lamp.pitt.edu">materials scientists</a> 
+          from the University of Pittsburgh. At the high level, we frame materials
+          design and discovery in the context of sequential decision making problems.
+          In the first project, we develop a constrained Bayesian optimization method to accelerate 
+          the fabrication process of an optical device. In the second project, 
+          we use multiobjective Bayesian optimization to discover and study the Pareto optimal
+          anti-reflective nanostructures through numerical simulations.
         </p>
       </div>
     </div>
@@ -115,46 +159,27 @@
     <div class="docs-section">
       <div class="one-half column" style="margin-top: 10%">
         <ul>
-            <li><a id="link-multiscaleopt" target="_blank" 
-                href="http://ieeexplore.ieee.org/abstract/document/7558191/">Co-optimizing battery storage for the
-                frequency regulation and energy arbitrage using multi-scale dynamic programming</a>, IEEE Transactions
-            on Smart Grid (2016)</li>
-            <li><a id="linke-sparseLR" target="_blank"
-                    href="http://ieeexplore.ieee.org/document/7950964/">Low-rank value function
-                    approximation for co-optimization of battery storage</a>, IEEE Transactions on
-                Smart Grid (2017)</li>
-          <li><a id="link-lrco-github" target="_blank" href="https://github.com/bolongcheng/LRCO">Code</a></li>
+            <li>
+              <a target="_blank" href="http://ieeexplore.ieee.org/abstract/document/7558191/">Co-optimizing battery storage 
+                for the frequency regulation and energy arbitrage using multi-scale dynamic programming</a>, IEEE Transactions 
+                on Smart Grid (2016)
+            </li>
+            <li>
+              <a target="_blank" href="http://ieeexplore.ieee.org/document/7950964/">Low-rank value function
+                approximation for co-optimization of battery storage</a>, IEEE Transactions on Smart Grid (2017)
+            </li>
+          <li><a target="_blank" href="https://github.com/bolongcheng/LRCO">Code</a></li>
         </ul>
       </div>
       <div id="grid-battery" class="one-half column" style="margin-bottom: 10%">
         <h4>battery co-optimization</h4>
-        <p align="justify">This project aims to co-optimize battery storage for multiple revenue streams. In
-        particular, we are interested in the <em>energy arbitrage</em> and <em>frequency regulation</em> as the two
-        main modes of operation. For the first time, we are able the model the problem down to the two-second
-        resolution, which replicates the dynamics of the regulation signal. We also introduce the idea of low-rank
-        value function approximation for backward dynamic programming.</p>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <!--optimal learning project-->
-    <div class="docs-section">
-      <div class="one-half column" style="margin-top: 10%">
-        <ul>
-          <li><a id="link-kgrbf-jogo" target="_blank"
-              href="https://link.springer.com/article/10.1007/s10898-015-0299-y">Optimal learning with a local
-              parametric belief model</a>, Journal of Global Optimization (2015)</li>
-          <li><a id="link-kgrbf-wsc" target="_blank"
-              href="http://ieeexplore.ieee.org/abstract/document/6721477/">The knowledge gradient algorithm using
-              locally parametric approximations</a>, Proceedings of the 2013 Winter Simulation Conference</li>
-        </ul>
-      </div>
-      <div class="one-half column" style="margin-bottom: 10%">
-        <h4>optimal learning</h4>
-        <p align="justify">This project implements an optimal learning algorithm with a locally parametric belief
-        model. This approach is motivated by the need to balance parametric models (that make assumption on the
-        function structure but are efficient in high dimensions) and nonparametric look-up table models (that make no
-        assumption on the function structure but are highly susceptible to the curse of dimensionality).</p>
+        <p align="justify">
+          This project aims to co-optimize battery storage for multiple revenue streams. In
+          particular, we are interested in the <em>energy arbitrage</em> and <em>frequency regulation</em> as the two
+          main modes of operation. For the first time, we are able the model the problem down to the two-second
+          resolution, which replicates the dynamics of the regulation signal. We also introduce the idea of low-rank
+          value function approximation for backward dynamic programming.
+        </p>
       </div>
     </div>
   </div>
